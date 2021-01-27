@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/bootstrap";
+@import "include";
+@import "components";
+
+$red: red;
+
+body {
+    color: $red;
+}
