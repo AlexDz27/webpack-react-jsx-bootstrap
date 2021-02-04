@@ -7,11 +7,11 @@ module.exports = {
     entry: './resources/webpack.entry.js',
     output: {
         path: path.resolve('./public'),
-        filename: 'js/index.min.js',
+        filename: 'js/index.js',
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'css/style.min.css'
+            filename: 'css/style.css'
         }),
     ],
     module: {

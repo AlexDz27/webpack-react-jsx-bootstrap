@@ -17,12 +17,14 @@ console.log(123)
 
 console.log(321)
 
-function some(a) {
-    if (a === undefined) {
-        throw new Error('asdasd');
-    }
+// function some(a) {
+//     if (a === undefined) {
+//         throw new Error('asdasd');
+//     }
+//
+//     return a;
+// }
 
-    return a;
-}
+// console.log(some());
 
-console.log(some());
+console.log('asdddddddddddddddddddddddddd');
